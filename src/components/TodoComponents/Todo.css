@@ -30,7 +30,9 @@
       width:30%;
   }
   .todo-App{
+      display: flex;
+      flex-direction: column;
       background-color: lightcyan;
       width: 50%;
-      margin:0 auto;
+      margin:10% auto;
   }
