@@ -1,7 +1,36 @@
 .item.completed {
     text-decoration: line-through;
+    background-color: aquamarine;
 }
 
 .item {
+    display: flex;
+    justify-content: center;
     cursor: pointer;
+    background-color: aqua;
+    align-items: center;
+    border: 1px dashed;
+    margin:1%
 }
+.todo-list{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    margin:0 auto;
+}
+.Form {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  h2{
+      margin:1% auto;
+      text-align: center;
+      background-color: slategray;
+      width:30%;
+  }
+  .todo-App{
+      background-color: lightcyan;
+      width: 50%;
+      margin:0 auto;
+  }

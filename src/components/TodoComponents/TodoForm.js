@@ -18,6 +18,7 @@ class TodoForm extends React.Component {
     }
     render() {
         return (
+            <div className="Form">
             <form onSubmit={this.handleSubmit}>
                 <input 
                     type="text" 
@@ -34,6 +35,7 @@ class TodoForm extends React.Component {
                 /> */}
                 <button>Add Todo</button>
             </form>
+            </div>
         );
     }
 }
